@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test Task</title>
+	<link rel="stylesheet" href="bootstrap.grid.css"/>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h1 class="head_text">Test Task</h1>
+			<form>
+				<input id="search_field" type="search" placeholder="Введите страну">
+				<input id="search_but" type="submit" value="Поиск" />
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="row">
+				<div class="col-8 content">
+					<div id="wrapper_list">
+						<div class="country_template">
+<!-- Список стран -->
+							<div class="part_info">
+								<h3 class="c_title">СТРАНА</h3>
+								<button type="button" class="show">Показать  ↓</button>
+							</div>
+<!-- Полная информация о стране -->
+							<div class="full_info">
+								<div class="row">
+									<div class="col-md-3 content_img">
+										<img class="c_img" src="russia.jpeg" alt=""/>
+									</div>
+									<div class="col-md content_info">
+										<h2 class="c_title">СТРАНА</h2>
+										<div>
+											<h3>Код страны</h3><p class="c_code">КОД</p>
+										</div>
+										<div>
+											<p>Язык:</p><p class="c_lang">ЯЗЫК</p>
+										</div>
+										<div>
+											<div><h3>Похожие страны</h3></div>
+											<p class="c_border">СТРАНА</p>
+										</div>
+										<form> 	
+											<input class="fav_add" type="button" value="В избранное"/>
+											<input class="fav_del" type="button" value="Удалить из избранного"/>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 sidebar">
+					<h2>Избранное</h2>
+					<ol id="side_wrapper"></ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer><br><br><br><br><br></footer>
+<script src="jquery-3.3.1.js"></script>
+<script src="common.js"></script>
+</body>
+</html>

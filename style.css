@@ -1,0 +1,90 @@
+body{
+    outline: none;
+}
+.head_text{
+    font-style: italic;
+    font-family: sans-serif;
+}
+/*
+*   ---SF---
+*/
+.content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #ccf;
+    margin-top: 20px;
+}
+#search_field{
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+#search_but{
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
+/*
+*   ---MC---
+*/
+.country_template:first-child{
+    display: none;
+}
+.content_info{
+    margin-left: 20px;
+}
+.content_info h3, .content_info p{
+    display: inline-block;
+    margin: 10px;
+}
+.content_info h2{
+    margin: 20px 10px;
+}
+.part_info h3{
+    font-weight: 100;
+    display: inline-block;
+}
+.part_info button{
+    display: inline-block;
+}
+.part .full_info, .full .part_info{
+    display: none;
+}
+.part .part_info, .full .full_info{
+    display: block;
+}
+.fav_add, .fav_del{
+    width: 200px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.fav_add{
+    background-color: #4370d8;
+}
+.fav_del{
+    background-color: #e22f41;
+    display: none;
+}
+/*
+*   ---MF---
+*/
+.sidebar ul{
+    padding-left: 20px;
+}
+.sidebar ul li{
+    list-style-type: square;
+    margin: 10px 0;
+}
+.show, .del{
+    padding: 0px 10px; 
+    background-color: #0af;
+    outline: none;
+    border: none;
+}
+.del{
+    display: inline-block;
+    background-color: #e22f41;
+}
